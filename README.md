@@ -1,4 +1,4 @@
-# Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis
+# Ahora 12: Credit Card Financing and Consumer Behavior Analysis
 This project applies Principal Component Analysis (PCA) to the Ahora 12 program dataset to uncover regional spending patterns and identify key consumer behavior trends across Argentina.
 
 # **Project Overview**
@@ -84,7 +84,7 @@ To ensure the **feasibility of PCA**, an exploratory analysis was conducted:
 
 - **Correlation Matrix:** Verified the relationships between product categories.
 
-![imagen1.png](attachment:b6a31261-f869-46a3-ab19-52cf3615beb1:imagen1.png)
+![imagen1.png](1.png)
 
 **Explanation:**
 
