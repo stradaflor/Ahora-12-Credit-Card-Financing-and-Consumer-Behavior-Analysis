@@ -1,0 +1,35 @@
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de R
+.Rhistory
+.RData
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de configuración personal
+*.log
+*.csv
+*.jpeg
+*.png
+*.pdf
+.vscode/
+.idea/
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de R
+.Rhistory
+.RData
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de configuración personal
+*.log
+.vscode/
+.idea/
+
