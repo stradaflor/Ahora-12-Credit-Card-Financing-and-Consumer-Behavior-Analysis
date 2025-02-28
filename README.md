@@ -93,7 +93,7 @@ This correlation matrix visually represents the relationships between different 
 - **Bartlett’s Sphericity Test:** Ensured the dataset was suitable for PCA by testing whether the correlation matrix was an identity matrix. The result showed a **p-value of 0**, confirming PCA applicability.
 - **Standardization:** Data was **centered and scaled** to ensure comparability across variables.
 
-![Imagen2.png](attachment:0f3b97fb-f4e7-463e-84cd-ad27abf20f81:Imagen2.png)
+![Imagen2.png](https://github.com/stradaflor/Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis/blob/main/2.png)
 
 **Explanation:**
 
@@ -108,7 +108,7 @@ To determine the **number of principal components**, we used:
 1. **Eigenvalue Criterion (Kaiser’s rule):** Components with eigenvalues **greater than 1** were retained. This resulted in **three principal components** explaining **95% of the variance**.
 2. **Scree Plot:** Visualized the **point of inflection** to confirm the number of extracted components.
 
-![Proyecto2_imagen3.png](attachment:277dafb3-123f-404a-a339-e8a13efcb263:Proyecto2_imagen3.png)
+![Proyecto2_imagen3.png](https://github.com/stradaflor/Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis/blob/main/3.png)
 
 **Explanation:**
 
@@ -120,19 +120,19 @@ The **Scree Plot** helps determine the number of principal components to retain.
 2. **Second Principal Component (PC2):** Strong **positive** associations with **Computers, Medical Equipment, Musical Instruments, Technical Services, Sports Services, and Tourism**. This component reflects **spending on services**.
 3. **Third Principal Component (PC3):** Strong **positive** associations with **Alarm Installation Services**, representing **security-related spending**.
 
-![Imagen3.png](attachment:a94948e1-9b04-4767-800b-672f3323bfbd:Imagen3.png)
+![Imagen3.png](https://github.com/stradaflor/Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis/blob/main/4.png)
 
 **Explanation:**
 
 This plot visualizes the **factor coordinates of product categories**. It helps identify which categories are highly correlated with each principal component. For example, variables positioned far from the origin have a strong influence on the first two components.
 
-![Proyecto2_imagen5.png](attachment:867c3a59-2b66-4fd8-a47d-06ab3f059258:Proyecto2_imagen5.png)
+![Proyecto2_imagen5.png](https://github.com/stradaflor/Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis/blob/main/5.png)
 
 **Explanation:**
 
 This **individual PCA representation plot** shows the distribution of provinces based on their scores in the first two principal components. Provinces that are far apart exhibit different purchasing behaviors, while those closer together have similar spending patterns.
 
-![Imagen4.png](attachment:a189ce19-fd02-4265-844a-40d119967259:Imagen4.png)
+![Imagen4.png](https://github.com/stradaflor/Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis/blob/main/6.png)
 
 **Explanation:**
 
@@ -153,7 +153,7 @@ fviz_pca_biplot(fit,
 
 ```
 
-![image.png](attachment:dca39fb5-120c-4d12-9c42-ced6e51519f2:image.png)
+![image.png](https://github.com/stradaflor/Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis/blob/main/7.png)
 
 **Explanation:**
 
@@ -165,7 +165,7 @@ This **color-coded PCA Biplot** enhances the previous visualization by adding a 
 
 ### **Key Findings**
 
-![Proyecto2_imagen8.png](attachment:52e543ce-b2b9-449f-afbe-a2791c5d3ac3:Proyecto2_imagen8.png)
+![Proyecto2_imagen8.png](https://github.com/stradaflor/Ahora-12-Credit-Card-Financing-and-Consumer-Behavior-Analysis/blob/main/8.png)
 
 - The **highest spending categories** were **Clothing, Construction Materials, and Tires**.
 - Among services, the **highest spending was in Tourism, Sports Services, and Perfumes**.
